@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: url(images/arkaplan.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.profile .logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto  30px;
+}
+.logo img{
+    border-radius: 50%;
+    max-width: 120%;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 30px;
+}
+.social a {
+    color: white;
+    font-size: 22px;
+    transition: 0.3s;
+}
+.social a:hover {
+    color: green;
+}
+.buttons .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 15px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+.buttons .btn img{
+    border-radius: 15px;
+    max-width: 30px;
+    max-height: 30px;
+}
+.buttons .btn:hover {
+    background-color: red;
+    color: #000;
+}
+.buttons .btn i {
+    font-size: 25px;
+    color: white;
+}
+.buttons .btn span{
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 10px;
+}
